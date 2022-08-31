@@ -45,15 +45,25 @@ export const IndexPageTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div>
-                  <Features gridItems={intro.blurbs} />
                   <div className="columns">
+                    <div className="column is-6">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        Visit Us
+                      </h3>
+                    </div>
+                    <div className="column is-6">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.425971267845!2d-134.6470273477049!3d58.386217181247325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54011df160e66eb5%3A0x897de458f5971ab1!2sDe%20Hart&#39;s%20Auke%20Bay%20Store!5e0!3m2!1sen!2sus!4v1661959932165!5m2!1sen!2sus" width="600" height="450" styles="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                  <Features gridItems={intro.blurbs} />
+                 {/*} <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/products">
                         See all products
                       </Link>
                     </div>
-                  </div>
-                  <div className="column is-12">
+                  </div>*/}
+                  {/*div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
                     </h3>
@@ -63,7 +73,7 @@ export const IndexPageTemplate = ({
                         Read more
                       </Link>
                     </div>
-                  </div>
+                  </div>*/}
                 </div>
               </div>
             </div>

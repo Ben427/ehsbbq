@@ -67,7 +67,7 @@ export const IndexPageTemplate = ({
                       <button>Order pizza</button>
                     </div>
                     <div className="column is-8">
-                     <img src="static/img/hot_case_menu.png"></img>
+                     <img src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />

@@ -62,7 +62,8 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
+            <div className="navbar-container">
+              <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="#about">
                 About
               </Link>
@@ -72,12 +73,16 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="#food">
                 Food
               </Link>
+              </div>
               {/*<Link className="navbar-item" to="/contact">
                 Contact
               </Link>
               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link>*/}
+              <p className="navbar-item">
+                Gas Price: $3.99 - last updated September 16, 2022
+              </p>
             </div>
             {/*<div className="navbar-end has-text-centered">
               <a

@@ -8,7 +8,7 @@ export default function FullWidthImage(props) {
     img,
     title,
     subheading,
-    imgPosition = "top left",
+    imgPosition = "", //was top left
   } = props;
 
   return (
@@ -24,7 +24,7 @@ export default function FullWidthImage(props) {
           <img
             src={img}
             objectFit={"cover"}
-            objectPosition={imgPosition}
+            objectPosition={"imgPosition"}
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.

@@ -29,7 +29,7 @@ export const IndexPageTemplate = ({
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  
+                  {/*
                   <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
@@ -38,7 +38,7 @@ export const IndexPageTemplate = ({
                       <h3 className="subtitle">{mainpitch.description}</h3>
                     </div>
                   </div>
-                  {/*<div className="columns">
+                  <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
@@ -47,27 +47,39 @@ export const IndexPageTemplate = ({
                     </div>
                   </div>*/}
                   <div className="columns">
-                    <div className="column is-4">
+                    <div className="column is-6">
                       <h3 className="has-text-weight-semibold is-size-2">
                         Visit Us
                       </h3>
                       <p><strong>Address:</strong><br/>11735 Glacier Hwy, Juneau, AK 99801</p>
                       <p><strong>Phone:</strong><br/>(907) 789-7342</p>
-                      <p><strong>Hours:</strong><br/>Monday - Friday, 10:00 AM - 3:00 AM</p>
+                      <p><strong>Hours:</strong><br/>Monday - Sunday, 10:00 AM - 3:00 AM</p>
                     </div>
-                    <div className="column is-8">
+                    <div className="column is-6">
                       <iframe title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.425971267845!2d-134.6470273477049!3d58.386217181247325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54011df160e66eb5%3A0x897de458f5971ab1!2sDe%20Hart&#39;s%20Auke%20Bay%20Store!5e0!3m2!1sen!2sus!4v1661959932165!5m2!1sen!2sus" width="100%" height="450" styles="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                   </div>
                   <div className="columns">
-                    <div className="column is-4">
+                    <div className="column is-6">
+                     <img src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
+                    </div>
+                    <div className="column is-6">
                       <h3 className="has-text-weight-semibold is-size-2">
-                        Hungry?
+                        Auke Bay Pizza Co.
                       </h3>
                       <p>Stop by our hot bar or order a pizza from our partner, Auke Bay Pizza Company!</p>
-                      <button>Order pizza</button>
+                      <a href="tel:123-456-7890">Call 123-456-7890 to order</a>
                     </div>
-                    <div className="column is-8">
+                    
+                  </div>
+                  <div className="columns">
+                    <div className="column is-6">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        Hot Food Bar
+                      </h3>
+                      <p>Stop by our hot food bar for a quick lunch or snack to go!</p>
+                    </div>
+                    <div className="column is-6">
                      <img src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
                     </div>
                   </div>

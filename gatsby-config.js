@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "Dehart's Auke Bay Store | Juneau, Alaska",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "Dehart's Auke Bay Store offering groceries, convenience, gas, with hot bar and pizza shop inside!",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

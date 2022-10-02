@@ -3,14 +3,12 @@ templateKey: index-page
 title: Welcome to De Hart's Auke Bay Store
 image: /img/deharts_hero.png
 heading: What we offer
-subheading: Serving the Juneau Community Since 19XX
+subheading: Serving the Juneau Community Since the 1950’s!
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Auke Bay’s community store!
+  description: Featuring liquor, wine, beer, tackle and bait, sundries,
+    convenience items, hot case food, frozen yogurt and friendly, local
+    employees.  Serving the Auke Bay area for over 70 years!
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that

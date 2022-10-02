@@ -10,23 +10,26 @@ import vimeo from "../img/social/vimeo.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: "384px", height: "150px",backgroundColor:"#ffffff"  }}
-          />
-        </div>
-        <div className=" social has-text-centered">
-                <a title="facebook" href="https://www.facebook.com/profile.php?id=145070852179854">
+      <footer className="footer" style={{borderTop:"1px solid #363636"}}>
+        <div className="content has-text-centered columns" style={{alignItems: "center"}}s>
+          
+          <div className="column is-12 columns has-text-left" style={{justifyContent: "space-around", alignItems: "center"}}>
+            <img
+                src={logo}
+                alt="De Hart's Auke Bay Store"
+                style={{ width: "384px", height: "150px",backgroundColor:"#ffffff"  }}
+              />
+            <p className="has-text-left"><strong>Address</strong><br/><a href="https://www.google.com/maps/dir//De+Hart's+Auke+Bay+Store+11735+Glacier+Hwy+Juneau,+AK+99801/@58.3862172,-134.6448333,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x54011df160e66eb5:0x897de458f5971ab1">11735 Glacier Hwy, Juneau, AK 99801</a></p>
+            <p><strong>Phone</strong><br/> (907) 789-7342</p>
+            <p><strong>Hours</strong><br/> Monday - Sunday, 10:00 AM - 3:00 AM</p>
+            {/* <a title="facebook" href="https://www.facebook.com/profile.php?id=145070852179854">
                   <img
                     src={facebook}
                     alt="Facebook"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                {/*<a title="twitter" href="https://twitter.com">
+               <a title="twitter" href="https://twitter.com">
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -49,8 +52,9 @@ const Footer = class extends React.Component {
                   />
                 </a>*/}
               </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+            </div>
+        <div className="content has-text-centered  has-text-white-ter">
+          <div className="container  has-text-white-ter">
             <div style={{ maxWidth: "100vw" }} className="columns">
               {/*<div className="column is-4">
                 <section className="menu">

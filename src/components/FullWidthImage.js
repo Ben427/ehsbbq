@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function FullWidthImage(props) {
   const {
-    height = 400,
+    height = 550,
     img,
     title,
     subheading,
@@ -64,6 +64,7 @@ export default function FullWidthImage(props) {
               // This centers the other elements inside the hero component
               placeItems: "center",
               display: "grid",
+              marginTop: "-200px",
             }}
           >
             {/* Any content here will be centered in the component */}

@@ -25,11 +25,11 @@ export const IndexPageTemplate = ({
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
       <section className="section section--gradient">
         <div className="container">
-          <div className="section">
+          <div className="section" style={{paddingTop: "0px"}}>
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  {/*
+                
                   <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
@@ -38,6 +38,8 @@ export const IndexPageTemplate = ({
                       <h3 className="subtitle">{mainpitch.description}</h3>
                     </div>
                   </div>
+                  <hr></hr>
+                    {/*
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-2">
@@ -46,7 +48,7 @@ export const IndexPageTemplate = ({
                       <p>{description}</p>
                     </div>
                   </div>*/}
-                    <div className="columns">
+                    <div className="columns" id="visit">
                       <div className="column is-6">
                         <h3 className="has-text-weight-semibold is-size-2">
                           Visit Us
@@ -62,7 +64,7 @@ export const IndexPageTemplate = ({
                   </div>
                   <hr></hr>
                   <div className="content">
-                    <div className="columns">
+                    <div className="columns" id="pizza">
                       <div className="column is-6">
                       <img src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
                       </div>
@@ -70,19 +72,20 @@ export const IndexPageTemplate = ({
                         <h3 className="has-text-weight-semibold is-size-2">
                           Auke Bay Pizza Co.
                         </h3>
-                        <p>Stop by our hot bar or order a pizza from our partner, Auke Bay Pizza Company!</p>
-                        <a href="tel:123-456-7890">Call 123-456-7890 to order</a>
+                        <p>Established in 2022, Auke Bay Pizza Co. brings fresh, quality pizza to the area.  Located within DeHart’s, try one of our delicious specialty pizzas or build your own.  We offer hot sandwiches made to order as well.  </p>
+                        <a href="tel:123-456-7890">Call to order at 123-456-7890</a>
                       </div>
                       </div>
                     </div>
                     <hr></hr>
                   <div className="content">  
-                    <div className="columns">
+                    <div className="columns" id="hot-bar">
                       <div className="column is-6">
                         <h3 className="has-text-weight-semibold is-size-2">
-                          Hot Food Bar
+                        Chicken, burritos, jojos, and more await!
                         </h3>
-                        <p>Stop by our hot food bar for a quick lunch or snack to go!</p>
+                        <p> Made fresh daily, stop in and grab a quick bite at any time of the day.
+</p>
                       </div>
                       <div className="column is-6">
                       <img src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>

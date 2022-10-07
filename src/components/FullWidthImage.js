@@ -56,7 +56,7 @@ export default function FullWidthImage(props) {
           />
         )}
         {(title || subheading) && (
-          <div
+          <div className="hero-text"
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",
@@ -64,7 +64,6 @@ export default function FullWidthImage(props) {
               // This centers the other elements inside the hero component
               placeItems: "center",
               display: "grid",
-              marginTop: "-200px",
             }}
           >
             {/* Any content here will be centered in the component */}

@@ -66,7 +66,7 @@ export const IndexPageTemplate = ({
                   <div className="content">
                     <div className="columns" id="pizza">
                       <div className="column is-6">
-                      <img src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
+                      <img src="https://heroic-crisp-fe6d89.netlify.app/img/auke_bay_pizza_oven.jpeg"></img>
                       </div>
                       <div className="column is-6">
                         <h3 className="has-text-weight-semibold is-size-2">
@@ -79,7 +79,7 @@ export const IndexPageTemplate = ({
                     </div>
                     <hr></hr>
                   <div className="content">  
-                    <div className="columns" id="hot-bar">
+                    <div className="columns">
                       <div className="column is-6">
                         <h3 className="has-text-weight-semibold is-size-2">
                         Chicken, burritos, jojos, and more await!
@@ -90,7 +90,9 @@ export const IndexPageTemplate = ({
                       <div className="column is-6">
                       <img src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
                       </div>
+                      <div id="hot-bar"></div>
                     </div>
+                    
                  {/* <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">

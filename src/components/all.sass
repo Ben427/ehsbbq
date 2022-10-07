@@ -146,6 +146,25 @@ $menu-label-color: $white-ter
 
 .hero-text
   margin-top: -200px
+  grid-area: 1/1
+  position: relative
+  place-items: center
+  display: grid
+
+.hero-heading
+  box-shadow: #9A3324 0.5rem 0px 0px, #9A3324 -0.5rem 0px 0px
+  background-color: #9A3324
+  color: #ffffff
+  line-height: 1
+  padding: 0.25em
+
+.hero-subheader
+  box-shadow: #9A3324 0.5rem 0px 0px, #9A3324 -0.5rem 0px 0px
+  background-color: #9A3324
+  color: white
+  line-height: 1
+  padding: 0.25rem
+  margin-top: 0.5rem
 
 .has-text-left
   text-align: left !important
@@ -215,3 +234,29 @@ hr
 .navbar-burger
   height: auto!important
 
+
+@media (max-width: 768px)
+  #pizza
+    display: flex
+    flex-direction: column-reverse
+
+
+@media (max-width: 600px)
+  .hero-text
+    margin-top: 10px
+    grid-area: auto
+    background-color: #9A3324!important
+    padding: 40px 20px
+    text-align: center
+    box-shadow: #9A3324!important
+  
+  .home-hero
+    display: none
+
+  .hero-heading
+    box-shadow: #9A3324 0.5rem 0px 0px, #9A3324 -0.5rem 0px 0px
+    background-color: #9A3324
+
+  .hero-subheader
+    box-shadow: #9A3324 0.5rem 0px 0px, #9A3324 -0.5rem 0px 0px
+    background-color: #9A3324

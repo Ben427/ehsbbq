@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
                 
                   <div className="content">
                     <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
+                      <h1 className="title" className="has-text-weight-semibold is-size-2">{mainpitch.title}</h1>
                     </div>
                     <div className="tile">
                       <h3 className="subtitle">{mainpitch.description}</h3>
@@ -73,7 +73,7 @@ export const IndexPageTemplate = ({
                           Auke Bay Pizza Co.
                         </h3>
                         <p>Established in 2022, Auke Bay Pizza Co. brings fresh, quality pizza to the area.  Located within DeHart’s, try one of our delicious specialty pizzas or build your own.  We offer hot sandwiches made to order as well.  </p>
-                        <a href="tel:123-456-7890">Call to order at 123-456-7890</a>
+                        <a href="tel:(907)-789-7342">Call to order at (907)-789-7342</a>
                       </div>
                       </div>
                     </div>

@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Welcome to De Hart's Auke Bay Store
-image: /img/deharts_hero.png
+image: /img/deharts_hero_blurred.webp
 heading: What we offer
 subheading: Serving the Juneau Community Since the 1950’s!
 mainpitch:

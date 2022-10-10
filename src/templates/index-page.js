@@ -23,9 +23,9 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <section className="section section--gradient">
+      <section className="section section--gradient" style={{paddingBottom: "0px"}}>
         <div className="container">
-          <div className="section" style={{paddingTop: "0px"}}>
+          <div className="section section-bg" style={{paddingTop: "0px"}}>
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
@@ -58,7 +58,7 @@ export const IndexPageTemplate = ({
                         <p><strong>Hours:</strong><br/>Monday - Sunday, 10:00 AM - 3:00 AM</p>
                       </div>
                       <div className="column is-6">
-                        <iframe title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.425971267845!2d-134.6470273477049!3d58.386217181247325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54011df160e66eb5%3A0x897de458f5971ab1!2sDe%20Hart&#39;s%20Auke%20Bay%20Store!5e0!3m2!1sen!2sus!4v1661959932165!5m2!1sen!2sus" width="100%" height="450" styles="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe style={{borderRadius: "25px", border: "4px solid #363636"}} title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.425971267845!2d-134.6470273477049!3d58.386217181247325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54011df160e66eb5%3A0x897de458f5971ab1!2sDe%20Hart&#39;s%20Auke%20Bay%20Store!5e0!3m2!1sen!2sus!4v1661959932165!5m2!1sen!2sus" width="100%" height="450" styles="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                       </div>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ export const IndexPageTemplate = ({
                   <div className="content">
                     <div className="columns" id="pizza">
                       <div className="column is-6">
-                      <img src="https://heroic-crisp-fe6d89.netlify.app/img/auke_bay_pizza_oven.jpeg"></img>
+                      <img className="custom-image" src="https://heroic-crisp-fe6d89.netlify.app/img/auke_bay_pizza_oven.jpeg"></img>
                       </div>
                       <div className="column is-6">
                         <h3 className="has-text-weight-semibold is-size-2">
@@ -78,7 +78,7 @@ export const IndexPageTemplate = ({
                       </div>
                     </div>
                     <hr></hr>
-                  <div className="content">  
+                  <div className="content" style={{paddingBottom: "40px"}}>  
                     <div className="columns">
                       <div className="column is-6">
                         <h3 className="has-text-weight-semibold is-size-2">
@@ -88,7 +88,7 @@ export const IndexPageTemplate = ({
 </p>
                       </div>
                       <div className="column is-6">
-                      <img src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
+                      <img className="custom-image" src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
                       </div>
                       <div id="hot-bar"></div>
                     </div>

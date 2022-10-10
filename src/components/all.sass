@@ -145,22 +145,23 @@ $menu-label-color: $white-ter
     margin: 0 0 1em
 
 .hero-text
-  margin-top: -200px
   grid-area: 1/1
   position: relative
   place-items: center
   display: grid
+  background-color: rgb(54, 54, 54,.95)
+  text-align: center
+  padding: 40px
+  border-radius:25px
+  width: 50%
+  margin-left: 25%
 
 .hero-heading
-  box-shadow: #9A3324 0.5rem 0px 0px, #9A3324 -0.5rem 0px 0px
-  background-color: #9A3324
   color: #ffffff
   line-height: 1
   padding: 0.25em
 
 .hero-subheader
-  box-shadow: #9A3324 0.5rem 0px 0px, #9A3324 -0.5rem 0px 0px
-  background-color: #9A3324
   color: white
   line-height: 1
   padding: 0.25rem
@@ -200,6 +201,23 @@ hr
   margin-bottom: 1rem
   margin-right: 40px
   text-align: left!important 
+
+.section-bg:before
+    
+    content: ""
+    background-image: url(https://heroic-crisp-fe6d89.netlify.app/img/rods.png)
+    background-size: contain
+    position: absolute
+    top: 48px
+    right: 0px
+    bottom: 0px
+    left: 0px
+    opacity: 0.03
+    z-index: -100
+
+.custom-image
+  border-radius: 25px
+  border: 4px solid #363636
 
 @media (max-width: 900px)
   .footer-mods

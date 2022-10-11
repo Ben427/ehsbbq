@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
-import logo from "../img/Deharts_logo_horizontal.png";
+import logo from "../img/deharts_logo_round.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -80,9 +80,10 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link>*/}
+              {/*
               <p className="navbar-item">
                 Gas Price: $3.99 - last updated September 16, 2022
-              </p>
+              </p>*/}
             </div>
             {/*<div className="navbar-end has-text-centered">
               <a

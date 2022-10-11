@@ -130,6 +130,9 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+h1, h3
+  font-family: 'Belgrano', serif
+  font-weight: 700
 
 // responsiveness
 +tablet-only
@@ -149,12 +152,13 @@ $menu-label-color: $white-ter
   position: relative
   place-items: center
   display: grid
-  background-color: rgb(54, 54, 54,.95)
+  background-color: rgba(153,51,36,.95)
   text-align: center
   padding: 40px
   border-radius:25px
   width: 50%
   margin-left: 25%
+  border: 2px solid #363636
 
 .hero-heading
   color: #ffffff
@@ -217,7 +221,7 @@ hr
 
 .custom-image
   border-radius: 25px
-  border: 4px solid #363636
+  border: 2px solid #363636
 
 @media (max-width: 900px)
   .footer-mods
@@ -246,7 +250,8 @@ hr
     text-align: center
   
   .hero-text
-    margin-top: -50px
+    width: 80%
+    margin-left: 10%
   
 
 .navbar-burger
@@ -267,6 +272,10 @@ hr
     padding: 40px 20px
     text-align: center
     box-shadow: #9A3324!important
+    width: 100%
+    margin-left: 0%
+    border: 0px
+    border-radius: 0px
   
   .home-hero
     display: none

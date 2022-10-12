@@ -75,7 +75,8 @@ Friday-Saturday: 4am-10pm</p>
                           Auke Bay Pizza Co.
                         </h3>
                         <p>Established in 2022, Auke Bay Pizza Co. brings fresh, quality pizza to the area.  Located within DeHart’s, try one of our delicious specialty pizzas or build your own.  We offer hot sandwiches made to order as well.  </p>
-                        <a href="tel:(907)-789-7342">Call to order at (907)-789-7342</a>
+                        <p><strong>Available from 10:00 AM to 8:00 PM</strong></p>
+                        <a href="tel:(907)-789-7342">Call to order at 907-500-7437</a>
                       </div>
                       </div>
                     </div>
@@ -86,8 +87,8 @@ Friday-Saturday: 4am-10pm</p>
                         <h3 className="has-text-weight-semibold is-size-2">
                         Chicken, burritos, jojos, and more await!
                         </h3>
-                        <p> Made fresh daily, stop in and grab a quick bite at any time of the day.
-</p>
+                        <p> Made fresh daily, stop in and grab a quick bite at any time of the day.</p>
+                        <p><strong>Available from 10:00 AM to 8:00 PM</strong></p>
                       </div>
                       <div className="column is-6">
                       <img className="custom-image" src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>

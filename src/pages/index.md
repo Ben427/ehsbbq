@@ -1,14 +1,13 @@
 ---
 templateKey: index-page
-title: Welcome to De Hart's Auke Bay Store
+title: "Welcome to Auke Bay Pizza Co. "
 image: /img/deharts_hero_blurred.webp
 heading: What we offer
-subheading: Serving the Juneau Community Since the 1950’s!
+subheading: Serving the Juneau Community Since 2022
 mainpitch:
-  title: Auke Bay’s community store!
-  description: Featuring liquor, wine, beer, tackle and bait, sundries,
-    convenience items, hot case food, frozen yogurt and friendly, local
-    employees.  Serving the Auke Bay area for over 70 years!
+  title: Fresh, quality pizza in Auke Bay
+  description: Check out our specialty pizza menu or create your own.  Call or
+    stop by to order.  Located within DeHarts!
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that

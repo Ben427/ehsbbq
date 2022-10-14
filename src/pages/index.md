@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: "Welcome to Auke Bay Pizza Co. "
-image: /img/abpc_hero_background.png
+image: /img/abpc_background_v2.png
 heading: What we offer
 subheading: Serving the Juneau Community Since 2022
 mainpitch:

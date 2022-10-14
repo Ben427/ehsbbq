@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Dehart's Auke Bay Store | Juneau, Alaska",
+    title: "Auke Bay Pizza Company | Juneau, Alaska",
     description:
-      "Dehart's Auke Bay Store offering groceries, convenience, gas, with hot bar and pizza shop inside!",
+      "Located inside Dehart's, Auke Bay Pizza Co. has been serving slices since 2022.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

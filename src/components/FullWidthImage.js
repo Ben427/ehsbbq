@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
+import logo_text from "../img/abpc_logo_title_image.svg";
 
 export default function FullWidthImage(props) {
   const {
@@ -63,7 +64,8 @@ export default function FullWidthImage(props) {
             }}
           >
             {/* Any content here will be centered in the component */}
-            {title && (
+            <img src={logo_text} style={{width: "400px"}} />
+           {/*} {title && (
               <h1
                 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen hero-heading"
                 style={{
@@ -72,7 +74,7 @@ export default function FullWidthImage(props) {
               >
                 {title}
               </h1>
-            )}
+            )} */}
             {subheading && (
               <h3
                 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen hero-subheader"

@@ -130,6 +130,10 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
+
+
+
+
 h1, h3
   font-family: 'Belgrano', serif
   font-weight: 700
@@ -152,7 +156,7 @@ h1, h3
   position: relative
   place-items: center
   display: grid
-  background-color: rgba(153,51,36,.95)
+  background-color: rgba(87,60,43,1)
   text-align: center
   padding: 40px
   border-radius:25px
@@ -190,7 +194,7 @@ hr
 
 .footer-mods
   display: flex!important
-  align-items: normal
+  align-items: center
   justify-content: space-between
 
 .footer-address
@@ -210,7 +214,7 @@ hr
     
     content: ""
     background-image: url(https://heroic-crisp-fe6d89.netlify.app/img/rods.png)
-    background-size: contain
+    background-size: cover
     position: absolute
     top: 48px
     right: 0px
@@ -263,6 +267,9 @@ hr
     display: flex
     flex-direction: column-reverse
 
+  #pizza .is-6
+    width: 100%
+
 
 @media (max-width: 600px)
   .hero-text
@@ -287,3 +294,18 @@ hr
   .hero-subheader
     box-shadow: #9A3324 0.5rem 0px 0px, #9A3324 -0.5rem 0px 0px
     background-color: #9A3324
+
+button
+  background-color: #9A3324
+  padding: 20px 40px
+  color: #ffffff
+  border-radius: 50px
+  border: 0px
+  font-weight: 700
+  font-size: 20px
+
+.slick-track
+  display: flex
+
+.slick-list
+  overflow: hidden

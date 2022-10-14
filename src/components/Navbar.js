@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
-import logo from "../img/deharts_logo_round.png";
+import logo from "../img/aukebaypizzaco_logo-notext_color.jpg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,7 +42,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="De Hart's Auke Bay Store" style={{ width: "256px", height: "100px", maxHeight: "500px"}} />
+              <img src={logo} alt="Auke Bay Pizza Company Logo" style={{ width: "100px", height: "120px", maxHeight: "500px"}} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -64,14 +64,14 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-container">
               <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="#visit">
-                Visit
+              <Link className="navbar-item" to="#about">
+                About
               </Link>
-              <Link className="navbar-item" to="#pizza">
-                Pizza
+              <Link className="navbar-item" to="#menu">
+                Menu
               </Link>
-              <Link className="navbar-item" to="#hot-bar">
-                Hot Bar
+              <Link className="navbar-item" to="#location">
+                Location
               </Link>
               </div>
               {/*<Link className="navbar-item" to="/contact">
@@ -80,10 +80,10 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact/examples">
                 Form Examples
               </Link>*/}
-              {/*
+              
               <p className="navbar-item">
-                Gas Price: $3.99 - last updated September 16, 2022
-              </p>*/}
+                Call to order:  <strong>&nbsp;<a href="tel:907-500-7437">907-500-7437</a></strong>
+              </p>
             </div>
             {/*<div className="navbar-end has-text-centered">
               <a

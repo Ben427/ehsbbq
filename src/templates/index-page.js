@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
+import Slider from "../components/Slider"
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -51,15 +52,14 @@ export const IndexPageTemplate = ({
                     <div className="columns" id="visit">
                       <div className="column is-6">
                         <h3 className="has-text-weight-semibold is-size-2">
-                          Visit Us
+                        Our Menu
                         </h3>
-                        <p><strong>Address:</strong><br/>11735 Glacier Hwy, Juneau, AK 99801</p>
-                        <p><strong>Phone:</strong><br/>(907) 789-7342</p>
-                        <p><strong>Winter Hours:</strong><br/> Sunday-Thursday:  4am-9pm<br/>
-Friday-Saturday: 4am-10pm</p>
+                        <p>Use your imagination or pick one of our Juneau-themed specialty pies.</p>
+                        <button>View full menu</button>
                       </div>
                       <div className="column is-6">
-                        <iframe style={{borderRadius: "25px", border: "2px solid #363636"}} title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.425971267845!2d-134.6470273477049!3d58.386217181247325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54011df160e66eb5%3A0x897de458f5971ab1!2sDe%20Hart&#39;s%20Auke%20Bay%20Store!5e0!3m2!1sen!2sus!4v1661959932165!5m2!1sen!2sus" width="100%" height="450" styles="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <div className="slick-track slick-list"></div>
+                        <Slider />
                       </div>
                     </div>
                   </div>
@@ -67,55 +67,21 @@ Friday-Saturday: 4am-10pm</p>
                   <div className="content">
                     <div className="columns" id="pizza">
                       <div className="column is-6">
-                        <img className="custom-image" src="https://heroic-crisp-fe6d89.netlify.app/img/deharts_pizza_cropped.jpeg"></img>
-                      </div>
+                      <iframe style={{borderRadius: "25px", border: "2px solid #363636"}} title="location map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8365.578208265855!2d-134.644614!3d58.386747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64882f201c912a14!2sAuke%20Bay%20Pizza%20Company!5e0!3m2!1sen!2sus!4v1665676463573!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                       <div className="column is-6">
                         
                         <h3 className="has-text-weight-semibold is-size-2">
-                          Auke Bay Pizza Co.
+                          Visit Us
                         </h3>
-                        <p>Established in 2022, Auke Bay Pizza Co. brings fresh, quality pizza to the area.  Located within DeHart’s, try one of our delicious specialty pizzas or build your own.  We offer hot sandwiches made to order as well.  </p>
                         <p><strong>Available from 10:00 AM to 8:00 PM</strong></p>
-                        <a href="tel:(907)-789-7342">Call to order at 907-500-7437</a>
+                        
+                        <p><strong>Address:</strong><br/>11735 Glacier Hwy, Juneau, AK 99801</p>
+                        <p><strong>Call to order:</strong><br/><a href="tel:(907)-789-7342">907-500-7437</a></p>
                       </div>
                       </div>
-                    </div>
-                    <hr></hr>
-                  <div className="content" style={{paddingBottom: "40px"}}>  
-                    <div className="columns">
-                      <div className="column is-6">
-                        <h3 className="has-text-weight-semibold is-size-2">
-                        Chicken, burritos, jojos, and more await!
-                        </h3>
-                        <p> Made fresh daily, stop in and grab a quick bite at any time of the day.</p>
-                        <p><strong>Available from 10:00 AM to 8:00 PM</strong></p>
-                      </div>
-                      <div className="column is-6">
-                      <img className="custom-image" src="https://heroic-crisp-fe6d89.netlify.app/static/dac2ae14d9354f058bb3c48e8263db7e/89218/hot_case_menu.webp"></img>
-                      </div>
-                      <div id="hot-bar"></div>
                     </div>
                     
-                 {/* <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
-                  </div>*/}
-                  {/*div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
-                    <BlogRoll />
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
-                    </div>
-                  </div>*/}
-                </div>
               </div>
             </div>
           </div>

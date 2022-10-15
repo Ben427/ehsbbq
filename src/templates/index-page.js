@@ -55,7 +55,7 @@ export const IndexPageTemplate = ({
                         Our Menu
                         </h3>
                         <p>Use your imagination or pick one of our Juneau-themed specialty pies.</p>
-                        <button>View full menu</button>
+                        <a href="https://www.aukebaypizza.com/img/takeoutmenu.pdf" target="_blank"><button>View full menu</button></a>
                       </div>
                       <div className="column is-6">
                       <div className="slick-track slick-list"></div>

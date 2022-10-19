@@ -67,7 +67,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="#about">
                 About
               </Link>
-              <Link className="navbar-item" to="#menu">
+              <Link className="navbar-item" to="https://www.aukebaypizza.com/img/takeoutmenu.pdf" target="_blank">
                 Menu
               </Link>
               <Link className="navbar-item" to="#location">

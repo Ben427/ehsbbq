@@ -6,8 +6,3 @@
   YARN_VERSION = "1.22.4"
   YARN_FLAGS = "--no-ignore-optional"
 
-
-[[redirects]]
-  from = "/blog"
-  to = "aukebaypizza.com"
-  status = 301

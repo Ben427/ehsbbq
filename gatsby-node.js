@@ -72,6 +72,8 @@ exports.createPages = ({ actions, graphql }) => {
   })
 }
 
+
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node) // convert image paths for gatsby images
@@ -85,3 +87,5 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+

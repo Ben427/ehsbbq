@@ -64,7 +64,7 @@ export const IndexPageTemplate = ({
                   </div>
                   <hr></hr>
                   <div className="content">
-                    <div className="columns" id="pizza">
+                    <div className="columns" id="location">
                       <div className="column is-6">
                       <iframe style={{borderRadius: "25px", border: "2px solid #363636"}} title="location map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8365.578208265855!2d-134.644614!3d58.386747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64882f201c912a14!2sAuke%20Bay%20Pizza%20Company!5e0!3m2!1sen!2sus!4v1665676463573!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>

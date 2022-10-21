@@ -9,3 +9,7 @@ tags:
   - test-tag
 ---
 Lorem ipsum dolor sit amet
+
+
+
+![](/img/abpc-preview-image.png)

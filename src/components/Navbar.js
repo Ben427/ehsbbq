@@ -84,7 +84,7 @@ const Navbar = class extends React.Component {
               </Link>*/}
               
               <p className="navbar-item">
-                <p className="footer-social"> <a title="facebook" href="https://www.facebook.com/aukebaypizzaco">
+                <p className="footer-social"> <a title="facebook" href="https://www.facebook.com/aukebaypizzaco" target="_blank">
                   <img
                     src={facebook}
                     alt="Facebook"
@@ -92,7 +92,7 @@ const Navbar = class extends React.Component {
                     className="social-facebook"
                   />
                 </a>
-                <a title="instagram" href="https://www.instagram.com/aukebaypizzaco/">
+                <a title="instagram" href="https://www.instagram.com/aukebaypizzaco/" target="_blank">
                   <img
                     src={instagram}
                     alt="Instagram"

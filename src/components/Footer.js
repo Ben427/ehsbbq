@@ -23,7 +23,7 @@ const Footer = class extends React.Component {
             <p className="footer-phone" style={{}}><strong>Phone</strong><br/> 907-500-7437</p>
             <p className="footer-hours" style={{}}><strong>Winter Hours</strong><br/> 10:00 AM to 8:00 PM</p>
             {/*<p className="footer-social"><strong>Social</strong><br/><a href="https://www.facebook.com/aukebaypizzaco">Follow us on Facebook</a></p>*/}
-            <p className="footer-social"> <a title="facebook" href="https://www.facebook.com/aukebaypizzaco">
+            <p className="footer-social"> <a title="facebook" href="https://www.facebook.com/aukebaypizzaco" target="_blank">
                   <img
                     src={facebook}
                     alt="Facebook"
@@ -31,7 +31,7 @@ const Footer = class extends React.Component {
                     className="social-facebook"
                   />
                 </a>
-                <a title="instagram" href="https://www.instagram.com/aukebaypizzaco/">
+                <a title="instagram" href="https://www.instagram.com/aukebaypizzaco/" target="_blank">
                   <img
                     src={instagram}
                     alt="Instagram"

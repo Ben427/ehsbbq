@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
+import facebook from "../img/social/facebook.svg";
+import instagram from "../img/social/instagram.svg";
 import logo from "../img/aukebaypizzaco_logo-notext_color.jpg";
 
 const Navbar = class extends React.Component {
@@ -70,6 +72,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="#location">
                 Location
               </Link>
+              <a className="navbar-item" href="tel:907-500-7437">
+              Call to order: 907-500-7437
+              </a>
               </div>
               {/*<Link className="navbar-item" to="/contact">
                 Contact
@@ -79,7 +84,22 @@ const Navbar = class extends React.Component {
               </Link>*/}
               
               <p className="navbar-item">
-                Call to order:  <strong>&nbsp;<a href="tel:907-500-7437">907-500-7437</a></strong>
+                <p className="footer-social"> <a title="facebook" href="https://www.facebook.com/aukebaypizzaco">
+                  <img
+                    src={facebook}
+                    alt="Facebook"
+                    style={{ width: "2em", height: "2em" }}
+                    className="social-facebook"
+                  />
+                </a>
+                <a title="instagram" href="https://www.instagram.com/aukebaypizzaco/">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: "2em", height: "2em" }}
+                  />
+                </a>
+                </p>
               </p>
             </div>
             {/*<div className="navbar-end has-text-centered">

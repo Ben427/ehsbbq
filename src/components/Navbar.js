@@ -72,8 +72,8 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="#location">
                 Location
               </Link>
-              <a className="navbar-item" href="tel:907-500-7437">
-              Call to order: 907-500-7437
+              <a className="navbar-item" href=" https://order.toasttab.com/online/auke-bay-pizza-co-11735-glacier-highway" target="_blank">
+              Order now
               </a>
               </div>
               {/*<Link className="navbar-item" to="/contact">

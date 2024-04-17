@@ -76,6 +76,7 @@ export const IndexPageTemplate = ({
                         <p><strong>Available from 10:00 AM to 8:00 PM</strong></p>
                         
                         <p><strong>Address:</strong><br/>11735 Glacier Hwy, Juneau, AK 99801</p>
+                        <p><img src="/img/order_now_button.png"></img></p>
                         <p><a href="https://order.toasttab.com/online/auke-bay-pizza-co-11735-glacier-highway" target="_blank"><strong>Order now</strong></a></p>
                       </div>
                       </div>

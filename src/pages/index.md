@@ -1,13 +1,12 @@
 ---
 templateKey: index-page
-title: "Welcome to Auke Bay Pizza Co. "
+title: "Welcome to Hometown Smoke n BBQ "
 image: /img/abpc_background_v2.png
 heading: What we offer
-subheading: Serving the Juneau Community Since 2022
+subheading: Serving the Edmonds Community Since 2024
 mainpitch:
-  title: Fresh, quality pizza in Auke Bay
-  description: Check out our specialty pizza menu or create your own.  Call or
-    stop by to order.  Located within DeHarts!
+  title: Fresh, quality smoked meats in downtown Edmonds
+  description: Check out our specialty Hometown Smoke n BBQ! Order online or stop by to order. Located within Edmonds ACE!
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that

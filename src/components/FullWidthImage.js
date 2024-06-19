@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { GatsbyImage } from "gatsby-plugin-image";
-import logo_text from "../img/abpc_logo_title_image.svg";
+import logo_text from "../img/home_town_smoke_logo.png";
 
 export default function FullWidthImage(props) {
   const {

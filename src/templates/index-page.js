@@ -66,7 +66,8 @@ export const IndexPageTemplate = ({
                   <div className="content">
                     <div className="columns" id="location">
                       <div className="column is-6">
-                      <iframe style={{borderRadius: "25px", border: "2px solid #363636"}} title="location map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8365.578208265855!2d-134.644614!3d58.386747!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x64882f201c912a14!2sAuke%20Bay%20Pizza%20Company!5e0!3m2!1sen!2sus!4v1665676463573!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+                      <iframe style={{borderRadius: "25px", border: "2px solid #363636"}} title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.7178612295384!2d-122.37856900000001!3d47.8063047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901af73e7083a1%3A0x8ce38967907e21c5!2s550%205th%20Ave%20S%2C%20Edmonds%2C%20WA%2098020!5e0!3m2!1sen!2sus!4v1718834136386!5m2!1sen!2sus" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                       <div className="column is-6">
                         
@@ -75,8 +76,8 @@ export const IndexPageTemplate = ({
                         </h3>
                         <p><strong>Available from 10:00 AM to 8:00 PM</strong></p>
                         
-                        <p><strong>Address:</strong><br/>11735 Glacier Hwy, Juneau, AK 99801</p>
-                        <p><a href="https://order.toasttab.com/online/auke-bay-pizza-co-11735-glacier-highway" target="_blank"><img  style={{maxWidth: "150px", paddingTop: "20px"}}  src="/img/order_now_button.png"></img></a></p>
+                        <p><strong>Address:</strong><br/>550 5th Ave S - Edmonds, WA 98020</p>
+                        <p><a href="#" target="_blank"><img  style={{maxWidth: "150px", paddingTop: "20px"}}  src="/img/order_now_button.png"></img></a></p>
                       </div>
                       </div>
                     </div>

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/aukebaypizzaco_logo-notext_color.jpg";
+import logo from "../img/home_town_smoke_logo.png";
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
@@ -19,11 +19,11 @@ const Footer = class extends React.Component {
                 alt="Auke Bay Pizza Company"
                 style={{ maxWidth: "250px", height: "auto",backgroundColor:"#ffffff", margin: "0px 40px"  }}
               />
-            <p className="footer-address" style={{}}><strong>Address</strong><br/><a href="https://www.google.com/maps/dir//De+Hart's+Auke+Bay+Store+11735+Glacier+Hwy+Juneau,+AK+99801/@58.3862172,-134.6448333,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x54011df160e66eb5:0x897de458f5971ab1">11735 Glacier Hwy, Juneau, AK 99801</a></p>
-            <p className="footer-phone" style={{}}><strong>Phone</strong><br/> 907-500-7437</p>
-            <p className="footer-hours" style={{}}><strong>Winter Hours</strong><br/> 10:00 AM to 8:00 PM</p>
+            <p className="footer-address" style={{}}><strong>Address</strong><br/><a href="https://maps.app.goo.gl/RmgaoWJMpE9SMiqJA">550 5th Ave S - Edmonds, WA 98020</a></p>
+            <p className="footer-phone" style={{}}><strong>Phone</strong><br/> 425-640-2313</p>
+            <p className="footer-hours" style={{}}><strong>Winter Hours</strong><br/> TBD</p>
             {/*<p className="footer-social"><strong>Social</strong><br/><a href="https://www.facebook.com/aukebaypizzaco">Follow us on Facebook</a></p>*/}
-            <p className="footer-social"> <a title="facebook" href="https://www.facebook.com/aukebaypizzaco" target="_blank">
+            <p className="footer-social"> <a title="facebook" href="#" target="_blank">
                   <img
                     src={facebook}
                     alt="Facebook"
@@ -31,7 +31,7 @@ const Footer = class extends React.Component {
                     className="social-facebook"
                   />
                 </a>
-                <a title="instagram" href="https://www.instagram.com/aukebaypizzaco/" target="_blank">
+                <a title="instagram" href="#" target="_blank">
                   <img
                     src={instagram}
                     alt="Instagram"

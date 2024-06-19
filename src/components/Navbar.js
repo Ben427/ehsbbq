@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
-import logo from "../img/aukebaypizzaco_logo-notext_color.jpg";
+import logo from "../img/home_town_smoke_logo.png";
 import cartIcon from "../img/cart-shopping.svg";
 
 const Navbar = class extends React.Component {

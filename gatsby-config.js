@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Auke Bay Pizza Company | Juneau, Alaska",
+    title: "Hometown Smoke n BBQ | Edmonds, Washington",
     description:
-      "Located inside Dehart's, Auke Bay Pizza Co. has been serving slices since 2022.",
+      "Located inside ACE Hardware, Hometown Smoke n BBQ has been serving fresh, quality smoked meats since 2024.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

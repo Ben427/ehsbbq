@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import FullWidthImage from "../components/FullWidthImage";
 import Slider from "../components/Slider"
+import heroImage from "../img/ht_smoke_bg.jpg"
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -18,7 +19,7 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const heroImage = getImage(image) || image;
+  //const heroImage = image;
 
   return (
     <div>
@@ -136,11 +137,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
+        
         heading
         subheading
         mainpitch {
@@ -164,3 +161,9 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+{/*image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }  */}

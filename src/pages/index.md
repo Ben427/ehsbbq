@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: "Welcome to Hometown Smoke n BBQ "
-image: /img/abpc_background_v2.png
+image: /img/ht_smoke_bg.jpg
 heading: What we offer
 subheading: Serving the Edmonds Community Since 2024
 mainpitch:

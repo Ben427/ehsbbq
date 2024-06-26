@@ -41,7 +41,7 @@ export default function FullWidthImage(props) {
         ) : (
           <GatsbyImage
             className="home-hero"
-            image={img}
+            image="/img/ht_smoke_bg.jpg"
             objectFit={"cover"}
             objectPosition={imgPosition}
             style={{

@@ -45,7 +45,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item navBar-logo" title="Logo">
-              <img src={logo} alt="Auke Bay Pizza Company Logo" style={{ width: "80px", height: "100px", maxHeight: "500px"}} />
+              <img src={logo} alt="Auke Bay Pizza Company Logo" style={{ width: "120px", height: "auto", maxHeight: "500px"}} />
             </Link>
             <div className="mobile-order-button-container">
               <Link to="https://order.toasttab.com/online/auke-bay-pizza-co-11735-glacier-highway" className="mobile-order-button"><button><img src={cartIcon} style={{ width: "20px", height: "20px"}} />&nbsp;&nbsp;Order now</button></Link>

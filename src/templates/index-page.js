@@ -164,9 +164,3 @@ export const pageQuery = graphql`
     }
   }
 `;
-
-{/*image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }  */}

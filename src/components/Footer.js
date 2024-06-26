@@ -10,7 +10,7 @@ import vimeo from "../img/social/vimeo.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer" style={{borderTop:"4px solid #CE892D"}}>
+      <footer className="footer" style={{borderTop:"4px solid #9A3324"}}>
         <div className="content has-text-centered columns" style={{alignItems: "center"}}>
           
           <div className="column is-12 columns has-text-left footer-mods" style={{}}>

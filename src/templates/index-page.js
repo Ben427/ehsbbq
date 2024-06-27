@@ -54,7 +54,7 @@ export const IndexPageTemplate = ({
                         Our Menu
                         </h3>
                         <p>Use your imagination or pick one of our Juneau-themed specialty pies.</p>
-                        <a href="https://www.aukebaypizza.com/img/takeoutmenu.pdf" target="_blank"><button>View full menu</button></a>
+                        <a href="https://www.aukebaypizza.com/img/edmondsbbq_menu.pdf" target="_blank"><button>View full menu</button></a>
                       </div>
                       <div className="column is-6">
                       <div className="slick-track slick-list"></div>
@@ -74,10 +74,14 @@ export const IndexPageTemplate = ({
                         <h3 className="has-text-weight-semibold is-size-2">
                           Visit Us
                         </h3>
-                        <p><strong>Available from 10:00 AM to 8:00 PM</strong></p>
+                        <h4><strong>Hours:</strong></h4>
+                        <p>Monday - Saturday 11am - 7pm<br/>Sunday 11am - 6pm</p>
                         
-                        <p><strong>Address:</strong><br/>550 5th Ave S - Edmonds, WA 98020</p>
-                        <p><a href="#" target="_blank"><img  style={{maxWidth: "150px", paddingTop: "20px"}}  src="/img/order_now_button.png"></img></a></p>
+                        <h4><strong>Address:</strong></h4>
+                        <p>550 5th Ave S - Edmonds, WA 98020</p>
+                        
+                        <a href="#"><button style={{marginTop: "20px",}}>Order now</button></a>
+                        {/*<p><a href="#" target="_blank"><img  style={{maxWidth: "150px", paddingTop: "20px"}}  src="/img/order_now_button.png"></img></a></p>*/}
                       </div>
                       </div>
                     </div>

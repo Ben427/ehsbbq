@@ -71,7 +71,7 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-container">
               <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="https://www.aukebaypizza.com/img/takeoutmenu.pdf" target="_blank">
+              <Link className="navbar-item" to="https://www.aukebaypizza.com/img/edmondsbbq_menu.pdf" target="_blank">
                 Menu
               </Link>
               <Link className="navbar-item" to="#location">

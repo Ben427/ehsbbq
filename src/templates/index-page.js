@@ -53,7 +53,7 @@ export const IndexPageTemplate = ({
                         <h3 className="has-text-weight-semibold is-size-2">
                         Our Menu
                         </h3>
-                        <p>Use your imagination or pick one of our Juneau-themed specialty pies.</p>
+                        <p>Choose from our selection of meats smoked on site, or make it a sandwich with sides!</p>
                         <a href="/img/edmondsbbq_menu.pdf" target="_blank"><button>View full menu</button></a>
                       </div>
                       <div className="column is-6">

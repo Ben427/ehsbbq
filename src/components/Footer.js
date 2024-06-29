@@ -21,7 +21,6 @@ const Footer = class extends React.Component {
               />
             <p className="footer-address" style={{}}><strong>Address</strong><br/><a href="https://maps.app.goo.gl/RmgaoWJMpE9SMiqJA">550 5th Ave S - Edmonds, WA 98020</a></p>
             <p className="footer-phone" style={{}}><strong>Phone</strong><br/> 425-640-2313</p>
-            <p className="footer-hours" style={{}}><strong>Winter Hours</strong><br/> TBD</p>
             {/*<p className="footer-social"><strong>Social</strong><br/><a href="https://www.facebook.com/aukebaypizzaco">Follow us on Facebook</a></p>*/}
             <p className="footer-social"> <a title="facebook" href="#" target="_blank">
                   <img

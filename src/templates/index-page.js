@@ -80,7 +80,7 @@ export const IndexPageTemplate = ({
                         <h4><strong>Address:</strong></h4>
                         <p>550 5th Ave S - Edmonds, WA 98020</p>
                         
-                        <a href="#"><button style={{marginTop: "20px",}}>Order now</button></a>
+                        <a href="https://order.toasttab.com/online/hometown-smoke-and-bbq" target="_blank"><button style={{marginTop: "20px",}}>Order now</button></a>
                         {/*<p><a href="#" target="_blank"><img  style={{maxWidth: "150px", paddingTop: "20px"}}  src="/img/order_now_button.png"></img></a></p>*/}
                       </div>
                       </div>

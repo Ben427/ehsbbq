@@ -21,8 +21,8 @@ const Footer = class extends React.Component {
               />
             <p className="footer-address" style={{}}><strong>Address</strong><br/><a href="https://maps.app.goo.gl/RmgaoWJMpE9SMiqJA">550 5th Ave S - Edmonds, WA 98020</a></p>
             <p className="footer-phone" style={{}}><strong>Phone</strong><br/> 425-640-2313</p>
-            {/*<p className="footer-social"><strong>Social</strong><br/><a href="https://www.facebook.com/aukebaypizzaco">Follow us on Facebook</a></p>*/}
-            <p className="footer-social"> <a title="facebook" href="#" target="_blank">
+            {/*<p className="footer-social"><strong>Social</strong><br/><a href="https://www.facebook.com/edmondsbbq">Follow us on Facebook</a></p>*/}
+            <p className="footer-social"> <a title="facebook" href="https://www.facebook.com/edmondsbbq" target="_blank">
                   <img
                     src={facebook}
                     alt="Facebook"
@@ -30,7 +30,7 @@ const Footer = class extends React.Component {
                     className="social-facebook"
                   />
                 </a>
-                <a title="instagram" href="#" target="_blank">
+                <a title="instagram" href="https://www.instagram.com/edmondsbbq/" target="_blank">
                   <img
                     src={instagram}
                     alt="Instagram"

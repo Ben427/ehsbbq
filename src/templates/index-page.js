@@ -23,9 +23,9 @@ export const IndexPageTemplate = ({
   return (
     <div>
     <section className="i-need-a-hero">
-      <img src="http://localhost:8000/static/criss_cross_bbq_utensils-003d840ae4ca57ec8dcf0f60039c08bb.png"></img>
-      <img src="https://edmondsbbq.com/static/home_town_smoke_logo-6f45d615629ceb5dc5c7d51652af3dbf.png"></img>
-      <img src="http://localhost:8000/static/criss_cross_bbq_utensils-003d840ae4ca57ec8dcf0f60039c08bb.png"></img>
+      <img className="criss-cross" src="https://edmondsbbq.com/static/criss_cross_bbq_utensils-003d840ae4ca57ec8dcf0f60039c08bb.png"></img>
+      <img className="hero-logo" src="https://edmondsbbq.com/static/home_town_smoke_logo-6f45d615629ceb5dc5c7d51652af3dbf.png"></img>
+      <img className="criss-cross" src="https://edmondsbbq.com/static/criss_cross_bbq_utensils-003d840ae4ca57ec8dcf0f60039c08bb.png"></img>
     </section>
       {/*<FullWidthImage img={heroImage} title={title} subheading={subheading} />*/}
       <section className="section section--gradient" style={{paddingBottom: "0px"}}>

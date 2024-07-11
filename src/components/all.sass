@@ -364,11 +364,32 @@ a button:hover
 .i-need-a-hero
   min-height: 500px
   background-image: url('../img/smoke_bg.webp')
+  background-repeat: no-repeat
   display: flex
   justify-content: space-between
   padding: 60px 60px
   align-items: center
 
-.i-need-a-hero img
-  width: 25%
+.hero-logo
+  width: 35%
   height: fit-content
+
+.criss-cross
+    width:20%
+    height: fit-content
+
+
+@media (max-width: 800px)
+  .criss-cross
+    width:15%
+  .hero-logo
+    width: 40%
+    height: fit-content
+
+@media (max-width: 600px)
+  .criss-cross
+    display: none
+  .hero-logo
+    width: 80%
+    height: fit-content
+    margin: auto

@@ -20,7 +20,7 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img className="custom-image" src="https://transcendent-medovik-acc048.netlify.app/img/abpc_pizza_one.png"></img>
+            <img className="custom-image" src="../img/ranch_hand_carryout.png"></img>
           </div>
           <div>
             <img className="custom-image" src="https://transcendent-medovik-acc048.netlify.app/img/abpc_pizza_three.png"></img>

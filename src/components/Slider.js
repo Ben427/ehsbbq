@@ -23,10 +23,34 @@ export default class SimpleSlider extends Component {
             <img className="custom-image" src="../img/ranch_hand_carryout.png"></img>
           </div>
           <div>
-            <img className="custom-image" src="https://transcendent-medovik-acc048.netlify.app/img/abpc_pizza_three.png"></img>
+            <img className="custom-image" src="../img/brisket_only.png"></img>
           </div>
           <div>
-            <img className="custom-image" src="https://transcendent-medovik-acc048.netlify.app/img/abpc_pizza_two.png"></img>
+            <img className="custom-image" src="../img/chicken_thighs.png"></img>
+          </div>
+          <div>
+            <img className="custom-image" src="../img/bacon_wrapped_brats.png"></img>
+          </div>
+          <div>
+            <img className="custom-image" src="../img/ribs_full_rack.png"></img>
+          </div>
+          <div>
+            <img className="custom-image" src="../img/brisket_sandwich.png"></img>
+          </div>
+          <div>
+            <img className="custom-image" src="../img/cowboy_carryout.png"></img>
+          </div>
+          <div>
+            <img className="custom-image" src="../img/half_rack_rib_meal.png"></img>
+          </div>
+          <div>
+            <img className="custom-image" src="../img/mac_potato_salad.png"></img>
+          </div>
+          <div>
+            <img className="custom-image" src="../img/pulled_pork.png"></img>
+          </div>
+          <div>
+            <img className="custom-image" src="../img/pulled_pork_sandwich.png"></img>
           </div>
         </Slider>
       </div>

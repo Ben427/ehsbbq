@@ -48,7 +48,7 @@ const Navbar = class extends React.Component {
               <img src={logo} alt="Auke Bay Pizza Company Logo" style={{ width: "120px", height: "auto", maxHeight: "500px"}} />
             </Link>
             <div className="mobile-order-button-container">
-              <Link to="https://order.toasttab.com/online/auke-bay-pizza-co-11735-glacier-highway" className="mobile-order-button"><button><img src={cartIcon} style={{ width: "20px", height: "20px"}} />&nbsp;&nbsp;Order now</button></Link>
+              <Link to="https://order.toasttab.com/online/hometown-smoke-and-bbq" className="mobile-order-button"><button><img src={cartIcon} style={{ width: "20px", height: "20px"}} />&nbsp;&nbsp;Order now</button></Link>
 
             </div>
             {/* Hamburger menu */}

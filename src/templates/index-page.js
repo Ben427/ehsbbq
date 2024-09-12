@@ -80,7 +80,7 @@ export const IndexPageTemplate = ({
                           Visit Us
                         </h3>
                         <h4><strong>Hours:</strong></h4>
-                        <p>Monday - Saturday 11am - 7pm<br/>Sunday 11am - 6pm</p>
+                        <p>Monday - Saturday: 11am - 7pm<br/>Sunday: Closed</p>
                         
                         <h4><strong>Address:</strong></h4>
                         <p>550 5th Ave S - Edmonds, WA 98020</p>

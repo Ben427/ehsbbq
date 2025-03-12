@@ -20,7 +20,7 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <img className="custom-image" src="../img/a_all_meet_carryout"></img>
+            <img className="custom-image" src="../img/a_all_meet_carryout.jpg"></img>
           </div>
           <div>
             <img className="custom-image" src="../img/brisket_only.png"></img>

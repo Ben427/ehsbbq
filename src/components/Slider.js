@@ -52,7 +52,7 @@ export default class SimpleSlider extends Component {
           <div>
             <img className="custom-image" src="../img/pulled_pork_sandwich.png"></img>
           </div>
-        </Slider>
+        </Slider> 
       </div>
       
     );
